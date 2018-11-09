@@ -56,7 +56,7 @@ nut upload <option>
 ```
 * **-s --source** 待上传的文件目录
 * **-i --ignore** 忽略的目录
-* **-r --remote** 接收文件的服务器相关配置 `user:user@ip:port/target`
+* **-r --remote** 接收文件的服务器相关配置 `user:pass@ip:port/target`
 
 ### 参数说明
 ---
@@ -70,4 +70,4 @@ nut upload <option>
 | sftpOption.username | 用户名 | - | 是
 | sftpOption.password | 密码 | - | 是
 | sftpOption.target | 接收文件的目录 | - | 是
-| ftpOption[option] | 参考 sftpOption | - | 是
+| httpOption[option] | 参考 sftpOption | - | 是

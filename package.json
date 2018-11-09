@@ -1,12 +1,16 @@
 {
   "name": "@nutui/upload",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "use http or sftp to upload locale files",
   "main": "index.js",
   "bin": {
     "nut": "bin/nut.js"
   },
   "author": "famanoder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdf2e/client-upload.git"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
