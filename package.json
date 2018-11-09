@@ -1,0 +1,23 @@
+{
+  "name": "@nutui/upload",
+  "version": "0.1.0",
+  "description": "use http or sftp to upload locale files",
+  "main": "index.js",
+  "bin": {
+    "nut": "bin/nut.js"
+  },
+  "author": "famanoder",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "glob": "^7.1.3",
+    "request": "^2.88.0",
+    "ssh2-sftp-client": "^2.4.1"
+  },
+  "keywords": [
+    "jdcfe",
+    "nutui",
+    "upload"
+  ]
+}
