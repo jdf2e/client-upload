@@ -2,7 +2,7 @@
 
 const program = require('commander');
 const pkg = require('../package.json');
-const {toRegExp, parseOptionUri, log} = require('../lib/utils');
+const {toRegExp, parseOptionUri} = require('../lib/utils');
 const ClientUpload = require('../');
 
 program
@@ -24,7 +24,7 @@ program
   const sftpOption = parseOptionUri(remote);
   ClientUpload({
     source,
-    ignoreRegexp: toRegExp(ignore),
+    ignoreRegexp: ignore && toRegExp(ignore),
     sftpOption
   });
 });
