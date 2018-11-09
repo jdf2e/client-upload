@@ -1,6 +1,6 @@
 {
   "name": "@nutui/upload",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "use http or sftp to upload locale files",
   "main": "index.js",
   "bin": {
